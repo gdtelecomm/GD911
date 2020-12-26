@@ -1,0 +1,107 @@
+try:
+    x=input("What is your grade?")
+    y=float(x)
+    if y>=1.0:
+        print("value our of range")
+    elif 1.0>=y>=.9:
+        print("A")
+    elif .9>y>=.8:
+        print("B")
+    elif 0.8>y>=0.7:
+        print("C")
+    elif 0.7>y>=0.6:
+        print("D")
+    elif y<0.6:
+        print("F")
+except:
+    print("Error,Please input is numeric")
+
+
+def computepay():
+        if(hrs>40):
+                p=(40*rate)+(hrs-40)*1.5*rate
+                return p
+        else: p=rate*hrs
+        return p
+hrs=float(input("enter Hours:"))
+rate=float(input("Enter Rate:"))
+p=computepay()
+print("Pay",p)
+Sum
+Zork=0
+print('Before',zork)
+for thing in [9,17,20,21,35]
+    zork=zork+thing
+    print(zork,thing)
+print('After',zork)
+
+Zork=0
+print('Before',zork)
+for thing in [9,17,20,21,35]
+    zork=zork+1
+    print(zork,thing)
+print('After',zork)
+
+Average 
+count=0
+sum=0
+print('before',count,sum)
+for value in [10,15,20]
+    count=count+1
+    sum=sum+value
+    print(count,sum,value)
+print('after',count,sum,sum/count)
+
+
+largest = None
+smallest = None
+while True:
+    num = input("Enter a number: ")
+    if num == "done" : 
+        break
+    try:
+       num=int(num)
+       if largest is None or largest<num:largest=num
+       if smallest is None or smallest>num:smallest=num
+    except:
+        print('Invalid input')
+    continue
+print("Maximum is", largest)
+print("Minimum is", smallest)
+
+
+
+
+
+for i in [6,5,4,3,2,1]:
+            print(i)
+print('Blastoff!')
+
+
+
+largest_so_far=-1
+print('Before',largest_so_far)
+for the_num in [7,10,100,9,15]:
+   if the_num>largest_so_far:
+largest_so_far=the_num
+print(largest_so_far,the_num)
+Print('After',largest_so_far)
+
+largest = None
+smallest = None
+while True:
+    num = input("Enter a number: ")
+    if num == "done" : 
+        break
+    try:
+       num=int(num)
+       if largest is None or largest<num:largest=num
+       if smallest is None or smallest>num:smallest=num
+    except:
+        print('Invalid input')
+    continue
+print("Maximum is", largest)
+print("Minimum is", smallest)
+
+
+
